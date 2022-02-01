@@ -179,6 +179,7 @@ def delete_message(request, pk):
     return render(request, 'app/delete.html', {'obj': message})
 
 
+# creating user 
 def create_user(request):
 
     page = 'create_user'
